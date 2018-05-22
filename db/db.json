@@ -1,0 +1,12 @@
+{
+    "Users":{
+        "user_01":{       
+        "Email": "akshaye@gmail.com",        
+        "Name": "Akshaye"
+        },
+        "user_02":{       
+            "Email": "allis@gmail.com",        
+            "Name": "Allis"
+            }
+    }    
+  }

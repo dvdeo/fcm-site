@@ -1,0 +1,33 @@
+<html>
+<head>
+    <meta charset="UTF-8">    
+    <title>Firebase Cloud Messaging</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="impt-db">
+        <p>Message</p>
+        <input type="text" id="txtVal" placeholder="Enter some text">
+        <input type="button" value="Import">
+
+        <p>Database</p>
+        <p id="email"></p>
+    </div>
+    
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyCA2BKK40sUfhtqTEDud87ecgECnXNcS4k",
+        authDomain: "fcm-site-f1672.firebaseapp.com",
+        databaseURL: "https://fcm-site-f1672.firebaseio.com",
+        projectId: "fcm-site-f1672",
+        storageBucket: "fcm-site-f1672.appspot.com",
+        messagingSenderId: "562117399984"
+    };
+    firebase.initializeApp(config);
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>

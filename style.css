@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("images/background.jpg");
+    background-size: cover;    
+    background-position: center;
+    font-family: sans-serif;
+}
+.impt-db{
+    width: 320px;
+    height: 430px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.impt-db input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.impt-db p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.impt-db input[type="text"]{
+    height: 40px;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    border-bottom: 1px solid #fff;
+}
+.impt-db input[type="button"]{   
+    height: 40px;
+    background-color: #fb2525;
+    color: #fff;
+    border: none;
+    outline: none;
+    /* border-radius: 20%;    */
+    font-size: 18px;   
+}
+.impt-db input[type='button']:hover{
+   background-color: burlywood;
+   cursor: pointer;
+}
